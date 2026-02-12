@@ -1,0 +1,21 @@
+[project]
+name = "DeepMRIAge"
+version = "0.1.0"
+description = "Predicting Chronological Age based on 3D Brain MRI Images using Deep Learning models (utilizing ResNet18 architecture)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "CC BY-NC 4.0"}
+dependencies = [
+    "monai>=1.5.2",
+    "nibabel>=5.3.3",
+    "pandas>=3.0.0",
+    "scikit-learn>=1.8.0",
+    "tensorflow>=2.20.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/BAICIL/AgePredication"
+Repository = "https://github.com"
+Issues = "https://github.com"
