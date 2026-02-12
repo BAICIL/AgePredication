@@ -2,7 +2,7 @@ pytorch
 monai
 nibabel
 scikit-learn
-tensorflow (pip)
+tensorflow
 torchvision 
 pandas
 
